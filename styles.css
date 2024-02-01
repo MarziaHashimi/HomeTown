@@ -1,0 +1,206 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+ .header {
+    position: relative;
+    height: 250px;
+    background: url('images/nature.jpg') center/cover; 
+    
+ } 
+ .text1{
+    text-shadow: 3px 5px 3px #26168b;
+    font-weight: bolder;
+    font-size: 50px;
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+ }
+ .text1:hover{
+    color:rgba(163, 163, 165, 0.892);
+    
+ }
+ .header-content {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: rgb(187, 185, 185);
+} 
+.navbar {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px; 
+   
+ } 
+ .navbar a {
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    text-shadow: 3px 5px 3px #26168b;
+    margin-bottom: 5px;
+} 
+
+.navbar a:hover {
+    text-decoration: underline white;
+    color: black;
+} 
+.content{
+    background: url('images/pngtree-silver.png') center/cover; 
+    padding-top: 1px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 1px;
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(40, 40, 43);
+    
+}
+.middle-section{
+    
+    background: url('images/pngtree-silver.png') center/cover; 
+
+}
+.text-random{
+font-weight:bolder ;
+text-align: center;
+font-size: 25px;
+color:rgb(58, 48, 119);
+font-family: 'Times New Roman', Times, serif;
+margin-top:0 ;
+
+}
+.placeholder-container {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+
+}
+
+.square-placeholder {
+    width: 160px; 
+    height: 120px; 
+    border: 2px solid rgb(105, 108, 112); 
+    border-radius: 10px; 
+}
+.placeholder-text {
+    margin-bottom: 10px;
+    margin-top: 2px;
+    color: rgb(48, 62, 117);
+}
+.placeholder-wrapper {
+    text-align: center;
+}
+ .placeholder-image {
+    width: 100%; 
+    height: 100%;
+    object-fit: cover; 
+    border-radius: 5px; 
+}
+.footer{
+    background-color: rgb(124, 175, 202);
+    padding-top: 10px;
+ text-align: center;
+    padding-bottom: 15px;
+    font-size: 15px;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(47, 47, 63);
+}
+.picture{
+    width: 120px;
+    border-radius: 5px;
+    
+}
+.guide{
+    background: rgb(196, 195, 196);
+    border-radius: 8px;
+    background-position: center;
+    width: 425px;
+    margin: auto;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    color: rgb(21, 34, 91);
+    border-left: 6px solid rgba(112, 112, 110, 0.896);
+    box-shadow: 5px 5px rgb(0, 0, 0), 10px 10px red, 15px 15px green;
+    
+}
+
+.home-header{
+    position: relative;
+    background: url('images/afghanistan-picture.jpg') center/ cover;
+    height: 250px;
+    
+}
+.home-text{
+        text-shadow: 3px 7px 3px #26168b;
+        font-weight: bolder;
+        font-size: 55px;
+        color: white;
+        font-family:'Times New Roman', Times, serif;
+        margin: 0;
+
+     }
+     .home-text:hover{
+        color:rgba(163, 163, 165, 0.892);
+        
+     }
+     .home-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: white;
+    } 
+    .bottom-section {
+        background-color: #a5aec2;
+        padding: 40px;
+        text-align: center;
+        height: 203px;
+    }
+
+    .bottom-section h2 {
+        color: #222222;
+        padding-top: 20px;
+    }
+
+    .bottom-section h3 {
+        color: #403f3f;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .home-header1{
+        position: relative;
+        background: url('images/Nawroz_Festival.jpg') center/ cover;
+        height: 280px;
+        
+    }
+   
+    .home-header2{
+        position: relative;
+        background: url('images/historical.jpg') center/ cover;
+        height: 250px;
+        }
+    .home-header3{
+            position: relative;
+            background: url('images/culture.jpg') center/ cover;
+            height: 250px;
+            }
+            .home-header4{
+                position: relative;
+                background: url('images/sport.jpeg') center/ cover;
+                height: 250px;
+                }
+     .home-header5{
+                position: relative;
+                background: url('images/food.jpg') center/ cover;
+                height: 250px;
+                }
+
+        
+
+
